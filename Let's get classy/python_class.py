@@ -30,4 +30,25 @@ rockets.append(Rocket(3, 7))
 rockets.append(Rocket(5, 9))
 rockets.append(Rocket(8, 15))
 
+# show on graph where each rocket is
 
+for index, rocket in enumerate(rockets):
+    # Original postion of rockets
+    print("Rocket %d is at (%d, %d)." % (index, rocket.x, rocket.y))
+    plt.plot(rocket.x, rocket.y, 'ro', linewidth=2, linestyle='dashed', markersize = 12)
+
+    # move the rocket one up
+    rocket.move_up()
+    print("New rocket position %d is at (%d, %d)." % (index, rocket.x, rocket.y))
+
+    #plot the new position
+    plt.plot(rocket.x, rocket.y, 'bo', linewidth=2, linestyle='dashed', markersize = 12)
+
+    #move the rocket left
+    rocket.move_left()
+    plt.plot(rocket.x, rocket.y, 'yo', linewidth=2, linestyle='dashed', markersize = 12)
+
+# show the graph legend to match colors with positions
+plt.gca().legend(('original position', '^ - moved up', '< - moved left'))
+plt.show()
+#plt.legend(loc='upper left')
