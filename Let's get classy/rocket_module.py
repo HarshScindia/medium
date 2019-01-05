@@ -20,3 +20,8 @@ class Rocket():
 
         def move_left(self):
             self.x -= 1
+       
+        # calculate distance from another point
+        def get_distance(self, other_rocket):
+            distance = sqrt((self.x-other.rocket.x) ** 2 + (self.y-other-rocket.y) ** 2)
+            return distance
