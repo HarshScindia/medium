@@ -1,4 +1,4 @@
-import matplotlib.py as plt
+import matplotlib as plt
 import rocket_module as rg
 
 # making rockets
