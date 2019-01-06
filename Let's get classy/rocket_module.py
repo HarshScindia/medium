@@ -9,19 +9,19 @@ class Rocket():
         self.x = x
         self.y = y
 
-        def move_up(self):
-            self.y += 1
+    def move_up(self):
+        self.y += 1
 
-        def move_down(self):
-            self.y -= 1
+    def move_down(self):
+        self.y -= 1
 
-        def move_right(self):
-            self.x += 1
+    def move_right(self):
+        self.x += 1
 
-        def move_left(self):
-            self.x -= 1
+    def move_left(self):
+        self.x -= 1
        
-        # calculate distance from another point
-        def get_distance(self, other_rocket):
-            distance = sqrt((self.x-other.rocket.x) ** 2 + (self.y-other-rocket.y) ** 2)
-            return distance
+    # calculate distance from another point
+    def get_distance(self, other_rocket):
+        distance = sqrt((self.x-other.rocket.x) ** 2 + (self.y-other-rocket.y) ** 2)
+        return distance

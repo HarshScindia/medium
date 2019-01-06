@@ -22,6 +22,7 @@ for index, rocket in enumerate(rockets):
     # plot the new position
     plt.plot(rocket.x, rocket.y, 'bs', linewidth=2, linestyle='dashed', markersize=12)
     # move the rocket left
+    rocket.move_left()
     plt.plot(rocket.x, rocket.y, 'ys', linewidth=2, linestyle='dashed', markersize=12)
 
 # show graph legend to match colors with position
