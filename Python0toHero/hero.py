@@ -42,4 +42,12 @@ for i in range(1, 11):
     print(i)
 
 # List: Collection | Array| Data Structure
+my_integers = [1,2,3,4,56,7,5,4,23]
+my_integers = [1,2,3,4,5,5343,4,2]
+print(my_integers[0])
+print(my_integers[3])
+# list of strings
+Relative_name = ["fdsfs","fsfsdfds","fsdfdsfd","dfsfsd", "fsdfsdfdsf"]
 
+# Dictionary Key-Value Data Structure
+dictionary_example = { "Key1": "Value1", "Key2": "Value2", "Key3":"Value3"}
