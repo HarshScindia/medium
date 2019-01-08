@@ -58,3 +58,16 @@ dictionary_hks = {"name":"harshvardhan", "nickname":"harsh", "nationality":"Indi
 print("My name is %s" % (dictionary_hks["name"])) # prints my name
 print("but you can call me %s" % (dictionary_hks["nickname"])) # prints my name
 print("and by the way I'am %s" % (dictionary_hks["nationality"])) # prints my nationality
+
+# iteration: Looping through data structures
+bookshelf = ["The effective engineer", "The 4 hours work week", "zero to one", "lean startup",
+        "hooked" ]
+for book in bookshelf:
+    print(book)
+
+dictionary = {"some_key": "some_value"}
+
+for key in dictionary:
+    print("%s --> %s" % (key, dictionary[key]))
+
+# some key --- some value
