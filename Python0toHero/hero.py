@@ -26,3 +26,20 @@ elif 1 > 2:
 
 else:
     print("1 is equal to 2")
+
+# Looping / iterator
+num = 1 
+while num <= 10:
+    print(num)
+    num += 1
+
+loop_condition = True
+while loop_condition:
+    print("Loop condition keeps %s" % (loop_condition))
+    loop_conditon = False
+
+for i in range(1, 11):
+    print(i)
+
+# List: Collection | Array| Data Structure
+
