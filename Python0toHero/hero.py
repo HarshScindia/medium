@@ -51,3 +51,10 @@ Relative_name = ["fdsfs","fsfsdfds","fsdfdsfd","dfsfsd", "fsdfsdfdsf"]
 
 # Dictionary Key-Value Data Structure
 dictionary_example = { "Key1": "Value1", "Key2": "Value2", "Key3":"Value3"}
+
+
+# Dictionary Accessing key value pairs in python
+dictionary_hks = {"name":"harshvardhan", "nickname":"harsh", "nationality":"Indian"}
+print("My name is %s" % (dictionary_hks["name"])) # prints my name
+print("but you can call me %s" % (dictionary_hks["nickname"])) # prints my name
+print("and by the way I'am %s" % (dictionary_hks["nationality"])) # prints my nationality
